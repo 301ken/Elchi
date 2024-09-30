@@ -1,0 +1,25 @@
+:root{
+    --primary-color: lightgray;
+    --secondary-color: black;
+    --text-color: gold;
+}
+header{
+    text-align: center;
+    color: var(--text-color);
+    background-color: var(--secondary-color);
+}
+nav{
+    margin: auto;
+    text-align: center;
+    background-color: var(--primary-color);
+    max-width: auto;
+    padding: 10px;
+}
+nav a{
+    text-align: center;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+nav a:hover{
+    color: var(--text-color);
+}

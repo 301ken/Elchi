@@ -1,0 +1,21 @@
+.Gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20 px;
+}
+.Gallery img{
+    max-width: calc(33.33% - 10px);
+    height: auto;
+    border-radius: auto;
+}
+@media (max-width: 600px){
+    .Gallery img{
+        max-width: calc(50% - 10px);
+    }
+}
+@media (max-width: 480px){
+    .Gallery img{
+        max-width: 100%;
+    }
+}

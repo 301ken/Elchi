@@ -1,0 +1,11 @@
+.animated-button{
+    background-color: aqua;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.animated-button:hover{
+    background-color: darkviolet;
+    color: black;
+    transform: scale(1.1);
+}

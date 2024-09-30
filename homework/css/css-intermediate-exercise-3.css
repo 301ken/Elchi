@@ -1,0 +1,17 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    margin: auto;
+}
+.navbar a:hover{
+    color: darkviolet;
+}
+@media (max-width: 600px) {
+    flex-direction: column;
+}

@@ -1,0 +1,7 @@
+.rotate{
+    display: inline-block;
+    transition: 0.3s;
+}
+.rotate:hover{
+    transform: rotate(45deg);
+}
